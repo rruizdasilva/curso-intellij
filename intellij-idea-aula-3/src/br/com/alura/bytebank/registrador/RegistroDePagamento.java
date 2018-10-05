@@ -1,14 +1,13 @@
 package br.com.alura.bytebank.registrador;
 
 import br.com.alura.bytebank.model.Pagamento;
-import br.com.alura.bytebank.validador.ValidaPagamento;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class RegistroDePagamento {
 
-    private final List<Pagamento> PAGAMENTOS = new ArrayList<>();
+    private final List<Pagamento> PAGAMENTOS = new ArrayList<Pagamento>();
 
     public void registra(List<Pagamento> pagamentos) {
         for (Pagamento pagamento : pagamentos) {
